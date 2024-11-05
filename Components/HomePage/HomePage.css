@@ -1,0 +1,61 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar .left-section {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar .right-section {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar .button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .right-section button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: linear-gradient(to left, black, blue);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .ads-section {
+    margin-top: 20px;
+  }
+  
+  .ad {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff; /* Bijela pozadina za oglas */
+  }
+  
+  .ad h4 {
+    margin: 0;
+    color: black; /* Naslov u crnoj boji */
+  }
+  
+  .ad p {
+    color: black; /* Sadržaj u crnoj boji */
+  }  
+  .naslov{
+    color: white;
+  }

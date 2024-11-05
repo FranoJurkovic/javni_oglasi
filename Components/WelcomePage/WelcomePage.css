@@ -1,0 +1,135 @@
+/* Osnovni stil za cijelu stranicu */
+.WelcomePage {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Stil za zaglavlje */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Stil za dugme za odjavu */
+  .logout-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: white;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Pozdravni tekst */
+  .header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Sekcija za kreiranje nove objave */
+  .create-ad-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .create-ad-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .create-ad-section input,
+  .create-ad-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .create-ad-section textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .create-ad-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-ad-section button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Sekcija za zadnje oglase */
+  .ads-section {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .ads-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ad {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ad h4 {
+    font-size: 18px;
+    color: #007bff;
+    margin: 0 0 5px;
+  }
+  
+  .ad p {
+    font-size: 16px;
+    margin: 0;
+  }
+  /* Promjena teksta u bijelo */
+.header h2,
+.WelcomePage h1,
+.WelcomePage p {
+  color: white;
+}
+.ads-section {
+    margin-top: 20px;
+  }
+  
+  .ad {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff; /* Bijela pozadina za oglas */
+  }
+  
+  .ad h4 {
+    margin: 0;
+    color: black; /* Naslov u crnoj boji */
+  }
+  
+  .ad p {
+    color: black; /* Sadržaj u crnoj boji */
+  }  

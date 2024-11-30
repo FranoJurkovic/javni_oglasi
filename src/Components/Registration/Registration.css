@@ -1,0 +1,62 @@
+.Registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    color: white;
+  }
+  
+  .Registration label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .Registration input[type="text"],
+  .Registration input[type="email"],
+  .Registration input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .Registration input[type="radio"] {
+    margin: 5px;
+  }
+  
+  .Registration select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  
+  .Registration button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: linear-gradient(to left, black, blue);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Registration button:hover {
+    background-color: darkgreen;
+  }
+  
+  .display-data {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: lightyellow;
+  }
+  
